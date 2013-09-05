@@ -6,7 +6,7 @@
   "description": "A nice client-side router.",
   "keywords": ["router", "push", "replace", "link", "delegate", "listen"],
   "dependencies": {
-    "component/link-delegate": "*",
+    "stagas/link-delegate": "*",
     "component/path-to-regexp": "*",
     "component/url": "*",
     "ianstormtaylor/history": "*",
