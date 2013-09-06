@@ -1,5 +1,9 @@
 describe('Router', function () {
 
+after(function () {
+  new Router().push('/test/');
+});
+
 var assert = require('assert')
   , history = require('history')
   , noop = function () {}
