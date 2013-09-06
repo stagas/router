@@ -8,6 +8,7 @@
   "dependencies": {
     "stagas/link-delegate": "*",
     "component/path-to-regexp": "*",
+    "component/event": "*",
     "component/url": "*",
     "ianstormtaylor/history": "*",
     "yields/prevent": "*",

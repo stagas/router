@@ -88,6 +88,22 @@ describe('#listen', function () {
       .listen();
     click(document.getElementById('link'));
   });
+
+  it('should listen on history changes', function (done) {
+    var i = 0;
+    var router = new Router()
+      .push('/start')
+      .on('/start', function () {
+        i++;
+        if (2 === i) done();
+      })
+      .on('/link', function () {
+        assert(1 === i);
+      })
+      .listen();
+    click(document.getElementById('link'));
+    history.back();
+  });
 });
 
 });
