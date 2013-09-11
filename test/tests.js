@@ -104,6 +104,7 @@ describe('#listen', function () {
       .on('/link', function () {
         assert(1 === i);
       })
+      .listenPopState()
       .listen();
     click(document.getElementById('link'));
     history.back();
