@@ -1,6 +1,6 @@
 {
   "name": "router",
-  "repo": "ianstormtaylor/router",
+  "repo": "stagas/router",
   "license": "MIT",
   "version": "0.1.0",
   "description": "A nice client-side router.",
