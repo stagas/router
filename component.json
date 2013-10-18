@@ -2,7 +2,7 @@
   "name": "router",
   "repo": "stagas/router",
   "license": "MIT",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A nice client-side router.",
   "keywords": ["router", "push", "replace", "link", "delegate", "listen"],
   "dependencies": {
